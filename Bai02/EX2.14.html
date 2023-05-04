@@ -1,0 +1,36 @@
+<!--
+☛ Bài tập: Khai báo CSS div p áp dụng cho các p là con cháu div. Thực hiện các khai báo sau:
+Khai báo CSS div > p áp dụng cho các p là con trực tiếp của div.
+Khai báo CSS div + p áp dụng cho p là anh em liền kề div.
+Khai báo CSS div ~ p áp dụng cho tất cả p là anh em liền kề div.
+Sau mỗi khai báo nhấn nút Chạy thử để xem kết quả.
+-->
+<!DOCTYPE html>
+<html>
+       <head>
+            <style>
+                div  p  {
+                  background-color:  yellow;
+                }
+                div > p  {
+                    background-color:  violet;
+                }
+                div + p  {
+                    background-color:  blanchedalmond;
+                }
+                div ~ p  {
+                    background-color:  greenyellow;
+                }
+            </style>
+       </head>
+       <body>
+          <div>
+              <p>Con của div.</p>
+              <p>Con của  div.</p>
+              <span><p>Cháu của div.</p></span>
+          </div>
+          <p>Anh em với  div.</p>
+          <p>Anh em với  div.</p>            
+       </body>
+</html>
+  
