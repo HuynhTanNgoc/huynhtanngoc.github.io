@@ -1,0 +1,72 @@
+body{
+    font-family:Comic Sans MS;
+    background-color: rgb(1, 2, 5);
+    color: rgb(241, 247, 247);
+}
+#heading{
+    /* background-image: url(../img/congnghe1.jpg); */
+}
+
+.heading1{
+    background-image: url(../img/congnghe.jpg);
+    height: 400px;
+}
+.heading1 h2{
+    color: aqua;
+    padding: 20px;  
+}
+
+.heading1 a{
+    color: aqua;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.heading1 a:hover{
+    background-color: greenyellow;
+    color: hotpink;
+}
+
+
+
+.heading1 li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.heading1 ul{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
+
+}
+
+.heading1 h1{
+    color: yellowgreen;
+    font-size: 40px;
+    background-position: center;
+    text-align: center;
+    margin-top: -100px;
+    margin: auto;
+}
+.heading1 p{
+    text-align: center;
+    font-style:oblique;
+    font-size: 24px;
+    color: rgb(130, 184, 144);
+    margin-top: 10px;
+}
+.heading2 h3{
+    color: rgb(103, 201, 152);
+
+
+}
+
+footer{
+    background-color: rgb(114, 184, 137);
+    color: aliceblue;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
